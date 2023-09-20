@@ -16,7 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG')
 
-ALLOWED_HOSTS = ['127.0.0.1','tembe-ganesha-copy.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1','tembe-ganesha.onrender.com']
 
 
 # Application definition
