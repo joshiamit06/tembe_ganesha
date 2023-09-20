@@ -7,6 +7,7 @@ from .serializers import ReceiptSerializer
 
 
 class CreateReceiptAPIView(generics.CreateAPIView):
+    
     queryset = Receipt.objects.all()
     serializer_class = ReceiptSerializer
 
